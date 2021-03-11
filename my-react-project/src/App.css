@@ -30,7 +30,11 @@
   background-color: purple;
 }
 
-.content img {
+.content .bg {
   height: 500px;
+}
+
+.content .avatar {
+  height: 150px;
 }
 
