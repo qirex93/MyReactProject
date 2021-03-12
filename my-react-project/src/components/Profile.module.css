@@ -1,0 +1,16 @@
+.content {
+    grid-area: c;
+    background-color: purple;
+}
+  
+.content .bg {
+    height: 500px;
+}
+  
+.content .avatar {
+    height: 150px;
+}
+  
+.item {
+    color: greenyellow;
+}

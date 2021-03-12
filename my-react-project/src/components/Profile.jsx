@@ -1,14 +1,15 @@
 import React from 'react';
+import classes from './Profile.module.css';
 
 const Profile = () => {
-    return <div className='content'>
+  return <div className={classes.content}>
 
     <div>
-      <img className='bg' src='https://photoshop-kopona.com/uploads/posts/2018-03/1521289405_17-8.jpg' />
+      <img className={classes.bg} src='https://photoshop-kopona.com/uploads/posts/2018-03/1521289405_17-8.jpg' />
     </div>
 
     <div>
-      <img className='avatar' src='https://pixelbox.ru/wp-content/uploads/2020/12/ava-vk-cats-90.jpg' />
+      <img className={classes.avatar} src='https://pixelbox.ru/wp-content/uploads/2020/12/ava-vk-cats-90.jpg' />
     </div>
 
     <div>
@@ -19,12 +20,14 @@ const Profile = () => {
       New post
     </div>
 
-    <div>
-      post 1
-    </div>
+    <div className={classes.posts}>
+      <div className={classes.item}>
+        post 1
+      </div>
 
-    <div>
-      post 2
+      <div className={classes.item}>
+        post 2
+      </div>
     </div>
 
   </div>
