@@ -3,8 +3,21 @@
     background-color: cornflowerblue;
 }
 
-.nav_item {
+.nav_item a, 
+.nav_item a:visited  {
     color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.nav_item a:hover {
+    color: wheat;
+    border: none;
+    text-decoration: none;
+}
+
+.nav_item a:active {
+    color:aqua;
 }
 
 .nav_item.active {
