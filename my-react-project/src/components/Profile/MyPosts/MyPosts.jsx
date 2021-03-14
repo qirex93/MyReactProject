@@ -14,9 +14,9 @@ const MyPosts = () => {
     </div>
 
     <div className={classes.posts}>
-      <Post />
-      <Post />
-      <Post />
+      <Post message='How do you do you?' likeCount='5'/>
+      <Post message='Pimp my ride' likeCount='1'/>
+      <Post message='Take my love, take my land, Take me where i cannot stand, i dont care, im still free, you cant take the sky from me' likeCount='3'/>
     </div>
     </div>
 }

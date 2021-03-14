@@ -1,9 +1,13 @@
 .item {
-    color: greenyellow;
+    color: burlywood;
 }
 
 .item .avatar {
     height: 50px;
     width: 50px;
     border-radius: 30px;
+}
+
+span {
+    color: greenyellow;
 }
