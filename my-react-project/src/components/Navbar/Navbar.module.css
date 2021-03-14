@@ -8,6 +8,8 @@
     color: white;
     border: none;
     text-decoration: none;
+    padding: 20px;
+    margin:  20px;
 }
 
 .nav_item a:hover {
@@ -20,6 +22,8 @@
     color:aqua;
 }
 
-.nav_item.active {
-    color: goldenrod;
+.nav_item a.active,
+.nav_item a:visited.active
+ {
+    color: gold;
 }
