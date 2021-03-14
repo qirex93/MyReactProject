@@ -3,17 +3,21 @@
     background-color: cornflowerblue;
 }
 
+.nav_item {
+    margin:  15px;
+}
+
 .nav_item a, 
 .nav_item a:visited  {
     color: white;
     border: none;
     text-decoration: none;
-    padding: 20px;
-    margin:  20px;
+    
 }
 
-.nav_item a:hover {
-    color: wheat;
+.nav_item a:hover,
+.nav_item a:hover.active:hover {
+    color: lawngreen;
     border: none;
     text-decoration: none;
 }
