@@ -1,21 +1,18 @@
 import MyPosts from './MyPosts/MyPosts';
 import classes from './Profile.module.css';
+import ProfileInfo from './ProfileInfo/ProfileInfo'
+
+
 
 const Profile = () => {
-  return <div>
-
+  return (
     <div>
-      <img className={classes.bg} src='https://photoshop-kopona.com/uploads/posts/2018-03/1521289405_17-8.jpg' />
+
+      <ProfileInfo />
+      <MyPosts />
+
     </div>
-
-    <div>
-      My posts
-    </div>
-    <MyPosts />
-
-  </div>
-
-
+  )
 }
 
 export default Profile;

@@ -2,14 +2,14 @@ import Post from './Post/Post';
 import classes from './MyPosts.module.css';
 
 const MyPosts = () => {
-  return <div >
+  return ( 
+  <div >
+    My posts
+    
 
     <div>
-      My posts
-    </div>
-
-    <div>
-      New post
+      <textarea></textarea>
+      <button>Add post</button>
     </div>
 
     <div className={classes.posts}>
@@ -17,7 +17,8 @@ const MyPosts = () => {
       <Post message='Pimp my ride' likeCount='1'/>
       <Post message='Take my love, take my land, Take me where i cannot stand, i dont care, im still free, you cant take the sky from me' likeCount='3'/>
     </div>
-    </div>
+  </div>
+    )
 }
 
 export default MyPosts;

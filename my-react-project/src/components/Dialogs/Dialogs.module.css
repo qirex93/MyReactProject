@@ -1,6 +1,6 @@
 .dialogs {
   display: grid;
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: max-content 1fr;
   grid-gap: 20px;
 }
 
@@ -10,6 +10,10 @@
 
 .dialogItems .active {
     color: gold;
+}
+
+.dialog {
+    margin-top: 5px;
 }
 
 .messages {
