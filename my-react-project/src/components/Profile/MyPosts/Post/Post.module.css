@@ -1,5 +1,6 @@
 .item {
     color: burlywood;
+    padding: 5px;
 }
 
 .item .avatar {
@@ -10,4 +11,5 @@
 
 span {
     color: greenyellow;
+    padding: 5px;
 }
