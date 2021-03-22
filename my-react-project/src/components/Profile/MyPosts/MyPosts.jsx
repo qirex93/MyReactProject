@@ -3,10 +3,7 @@ import classes from './MyPosts.module.css';
 
 const MyPosts = (props) => {
 
- 
-  
   let postsElements = props.posts.map( p => <Post message={p.msg} likeCount={p.likesCount} /> );
-
 
   return ( 
   <div >
